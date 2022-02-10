@@ -1,32 +1,64 @@
-body {
-    background-image: url("../download.jpg");
+header{
+    background-image: url("../a.jpg");
+}
+#boule
+{
+    display: flex;
+   flex-direction: row;
+   align-items: baseline;
+}
+
+#boule img
+{
+    width: 17px;
+    height: 20px;
+}
+
+header h4
+{
+    font-family: dayrom, serif;
+    font-size: 1.0em;
+    margin-top: 0px;
+    font-weight:10px;
+}
+.antialiased{
+    align-self: center;
 }
 
 .containeur{
     position: relative;
-    left: 30px; right: 0; top: 100px; bottom: 0;
-    background-color: rgba(32, 34, 170, 0.815);
-    color: rgba(247, 14, 142, 0.918);
+
     width: 300px;
     height: 200px;
-    align-self: center;
+
 }
 .input{
-    width: 45px;
-    height: 25px;
-    background-color: rgb(214, 191, 191);
+    width: 70px;
+    height: 30px;
+    background-color: rgb(16, 221, 84);
     text-align: center;
 }
 input
 {
-    margin: 30px 0px 0px 20px;
+
+    margin: 30px 10px 10px 30px;
     border: none;
 }
-select{
-    scrollbar-arrow-color: aqua;
-}
 span{
-    position: absolute;
+    position: relative;
     text-align: center;
-    color: brown;
+    color: rgb(96, 121, 9);
+}
+p{
+    background-color: aqua;
+    text-align: center;
+}
+aside{
+    background-image: url("/download.jpg");
+
+}
+.green input{
+    background-color: rgb(202, 114, 55);
+    position: relative;
+    text-align: center;
 }
